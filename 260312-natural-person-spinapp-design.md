@@ -265,6 +265,10 @@ files = [{ source = "svelte/build/", destination = "/" }]
 environment = { FALLBACK_PATH = "index.html" }
 ```
 
+*(2026-09-07: this is a historical design record for `natural-person-np7k2m9x`,
+left as-is. Elsewhere in this repo, `appview/resources-mcp-component`'s own
+frontend moved from `svelte/` to `cljs/` — see the repo README.)*
+
 ## K8s App
 
 ```yaml
